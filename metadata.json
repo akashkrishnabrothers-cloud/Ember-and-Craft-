@@ -1,0 +1,6 @@
+{
+  "name": "Ember & Craft | Flame-Grilled Fast-Food & Gourmet Burgers",
+  "description": "Premium flame-grilled gourmet burgers, wraps, chicken meals, and sides. Real food, real fire, real flavor crafted for instant online ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

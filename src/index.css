@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-black: #080808;
+    --color-charcoal-deep: #151515;
+    --color-charcoal-sub: #222222;
+    --color-gold: #F5B800;
+    --color-gold-bright: #FFC928;
+    --color-bg-white: #FAFAF8;
+    --color-gray-light: #F2F2F0;
+    --color-text-muted: #777777;
+    --color-border: #EAEAEA;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-heading {
+  font-family: 'Oswald', 'Bebas Neue', sans-serif;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', 'Oswald', sans-serif;
+}
+
+.font-accent {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom scrollbar for horizontal category scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
